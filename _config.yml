@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://qtao.github.io
-title: My Octopress Blog
+url: http://qtao.github.com
+title: Biostatistics Notes
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Tao
 simple_search: http://google.com/search
 description:
 
