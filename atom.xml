@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Biostatistics Notes]]></title>
+  <link href="http://qtao.github.io/atom.xml" rel="self"/>
+  <link href="http://qtao.github.io/"/>
+  <updated>2013-06-13T00:01:40+08:00</updated>
+  <id>http://qtao.github.io/</id>
+  <author>
+    <name><![CDATA[Tao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[From my Thinkpad]]></title>
+    <link href="http://qtao.github.io/blog/2013/06/13/from-my-thinkpad/"/>
+    <updated>2013-06-13T00:00:00+08:00</updated>
+    <id>http://qtao.github.io/blog/2013/06/13/from-my-thinkpad</id>
+    <content type="html"><![CDATA[<p>Update from windows 8.</p>
+
+<p>~~ Tao</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world]]></title>
+    <link href="http://qtao.github.io/blog/2013/06/09/hello-world/"/>
+    <updated>2013-06-09T12:34:00+08:00</updated>
+    <id>http://qtao.github.io/blog/2013/06/09/hello-world</id>
+    <content type="html"><![CDATA[<p>This is my test post.</p>
+
+<p>~~Tao</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://qtao.github.io/blog/2013/06/09/zombie-ninjas-attack-a-survivors-retrospective/"/>
+    <updated>2013-06-09T11:31:00+08:00</updated>
+    <id>http://qtao.github.io/blog/2013/06/09/zombie-ninjas-attack-a-survivors-retrospective</id>
+    <content type="html"><![CDATA[<p>Hello world!</p>
+]]></content>
+  </entry>
+  
+</feed>

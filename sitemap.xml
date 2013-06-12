@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://qtao.github.io/blog/2013/06/09/zombie-ninjas-attack-a-survivors-retrospective/
+        </loc>
+        <lastmod>2013-06-12T23:57:34+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qtao.github.io/blog/2013/06/09/hello-world/</loc>
+        <lastmod>2013-06-12T23:57:34+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qtao.github.io/blog/2013/06/13/from-my-thinkpad/</loc>
+        <lastmod>2013-06-13T00:01:20+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qtao.github.io/blog/archives/</loc>
+        <lastmod>2013-06-13T00:01:20+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qtao.github.io/</loc>
+        <lastmod>2013-06-13T00:01:20+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://qtao.github.io/robots.txt</loc>
+        <lastmod>2013-06-12T23:57:34+08:00</lastmod>
+    </url>
+</urlset>
