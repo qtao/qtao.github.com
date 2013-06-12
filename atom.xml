@@ -4,7 +4,7 @@
   <title><![CDATA[Biostatistics Notes]]></title>
   <link href="http://qtao.github.io/atom.xml" rel="self"/>
   <link href="http://qtao.github.io/"/>
-  <updated>2013-06-13T00:01:40+08:00</updated>
+  <updated>2013-06-13T00:41:32+08:00</updated>
   <id>http://qtao.github.io/</id>
   <author>
     <name><![CDATA[Tao]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Change SSH Keys]]></title>
+    <link href="http://qtao.github.io/blog/2013/06/13/change-ssh-keys/"/>
+    <updated>2013-06-13T00:40:00+08:00</updated>
+    <id>http://qtao.github.io/blog/2013/06/13/change-ssh-keys</id>
+    <content type="html"><![CDATA[<p>[core]</p>
+
+<pre><code>    repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    symlinks = false
+    ignorecase = true
+    hideDotFiles = dotGitOnly
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[From my Thinkpad]]></title>
