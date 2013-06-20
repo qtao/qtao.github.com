@@ -4,7 +4,7 @@
   <title><![CDATA[Biostatistics Notes]]></title>
   <link href="http://qtao.github.io/atom.xml" rel="self"/>
   <link href="http://qtao.github.io/"/>
-  <updated>2013-06-20T09:48:17+08:00</updated>
+  <updated>2013-06-20T10:04:42+08:00</updated>
   <id>http://qtao.github.io/</id>
   <author>
     <name><![CDATA[Tao]]></name>
@@ -20,12 +20,12 @@
     <id>http://qtao.github.io/blog/2013/06/20/r-cmd-install-package-had-non-zero-exit-status</id>
     <content type="html"><![CDATA[<h2>R package installation question</h2>
 
-<p>I am trying to install a few packages and I get back an error which says:</p>
+<p>If you are trying to install a few packages and I get back an error which says:</p>
 
 <pre><code>&gt; install.packages("mgcv")
-Installing package into ¡®/usr/local/lib/R/site-library¡¯
-(as ¡®lib¡¯ is unspecified)
-¡­¡­
+Installing package into â€˜/usr/local/lib/R/site-libraryâ€™
+(as â€˜libâ€™ is unspecified)
+â€¦â€¦
 installing to /usr/local/lib/R/site-library/mgcv/libs
 ** R
 ** data
@@ -37,10 +37,10 @@ installing to /usr/local/lib/R/site-library/mgcv/libs
 ** testing if installed package can be loaded
 Error in system2(file.path(R.home("bin"), "R"), c(if (nzchar(arch)) paste0("--arch=",  : 
   cannot popen ' '/usr/lib64/R/bin/R' --no-save --slave 2&gt;&amp;1 &lt; /tmp/RtmpzbUyE8/file11334a3a2f8c', probable reason 'Cannot allocate memory'
-* removing ¡®/usr/local/lib/R/site-library/mgcv¡¯
+* removing â€˜/usr/local/lib/R/site-library/mgcvâ€™
 &gt; 
 &gt; library(mgcv)
-Error in library(mgcv) : there is no package called ¡®mgsv¡¯
+Error in library(mgcv) : there is no package called â€˜mgsvâ€™
 </code></pre>
 
 <blockquote></blockquote>
@@ -53,9 +53,9 @@ Error in library(mgcv) : there is no package called ¡®mgsv¡¯
 <p>Then the porblem resolved:</p>
 
 <pre><code>&gt; install.packages("mgcv")
-Installing package into ¡®/usr/local/lib/R/site-library¡¯
-(as ¡®lib¡¯ is unspecified)
-¡­¡­
+Installing package into â€˜/usr/local/lib/R/site-libraryâ€™
+(as â€˜libâ€™ is unspecified)
+â€¦â€¦
 installing to /usr/local/lib/R/site-library/mgcv/libs
 ** R
 ** data
@@ -68,14 +68,14 @@ installing to /usr/local/lib/R/site-library/mgcv/libs
 * DONE (mgcv)
 
 The downloaded source packages are in
-    ¡®/tmp/RtmpyjRqJW/downloaded_packages¡¯
+    â€˜/tmp/RtmpyjRqJW/downloaded_packagesâ€™
 
 &gt; library(mgcv)
 This is mgcv 1.7-24. For overview type 'help("mgcv-package")'.
 &gt; 
 </code></pre>
 
-<p>~~Cheers!</p>
+<p>~~ Done!</p>
 ]]></content>
   </entry>
   
