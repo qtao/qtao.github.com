@@ -4,7 +4,7 @@
   <title><![CDATA[Biostatistics Notes]]></title>
   <link href="http://qtao.github.io/atom.xml" rel="self"/>
   <link href="http://qtao.github.io/"/>
-  <updated>2013-06-20T10:04:42+08:00</updated>
+  <updated>2013-06-20T10:06:27+08:00</updated>
   <id>http://qtao.github.io/</id>
   <author>
     <name><![CDATA[Tao]]></name>
@@ -20,7 +20,7 @@
     <id>http://qtao.github.io/blog/2013/06/20/r-cmd-install-package-had-non-zero-exit-status</id>
     <content type="html"><![CDATA[<h2>R package installation question</h2>
 
-<p>If you are trying to install a few packages and I get back an error which says:</p>
+<p>If you are trying to install a package and get an error which says:</p>
 
 <pre><code>&gt; install.packages("mgcv")
 Installing package into ‘/usr/local/lib/R/site-library’
