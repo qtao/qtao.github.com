@@ -4,7 +4,7 @@
   <title><![CDATA[Biostatistics Notes]]></title>
   <link href="http://qtao.github.io/atom.xml" rel="self"/>
   <link href="http://qtao.github.io/"/>
-  <updated>2013-06-20T10:42:15+08:00</updated>
+  <updated>2013-06-20T10:47:11+08:00</updated>
   <id>http://qtao.github.io/</id>
   <author>
     <name><![CDATA[Tao]]></name>
@@ -58,7 +58,7 @@ D:\Github\qtao&gt;
 <pre><code>     self.content = File.read(File.join(base, name), :encoding =&gt; "utf-8")
 </code></pre>
 
-<p>Ran &ldquo;rake generate&rdquo; again and the errors should be gone:</p>
+<p>Rerun &ldquo;rake generate&rdquo; command and the errors should be gone:</p>
 
 <pre><code>D:\Github\qtao&gt;rake generate
 ## Generating Site with Jekyll
