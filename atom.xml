@@ -4,7 +4,7 @@
   <title><![CDATA[Biostatistics Notes]]></title>
   <link href="http://qtao.github.io/atom.xml" rel="self"/>
   <link href="http://qtao.github.io/"/>
-  <updated>2013-06-20T10:06:27+08:00</updated>
+  <updated>2013-06-20T10:42:15+08:00</updated>
   <id>http://qtao.github.io/</id>
   <author>
     <name><![CDATA[Tao]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[rake generate: UTF-8 errors on Windows]]></title>
+    <link href="http://qtao.github.io/blog/2013/06/20/rake-generate-utf-8-errors-on-windows/"/>
+    <updated>2013-06-20T10:30:00+08:00</updated>
+    <id>http://qtao.github.io/blog/2013/06/20/rake-generate-utf-8-errors-on-windows</id>
+    <content type="html"><![CDATA[<h3>Test a new post with UTF-8 text.</h3>
+
+<pre><code>D:\Github\qtao&gt;rake new_post["test01"]
+</code></pre>
+
+<p>Edit &ldquo;source/_posts/2013-06-20-test01.markdown&rdquo; file,
+and save as &ldquo;UTF-8 -NO BOM&rdquo; text file format.</p>
+
+<p>If you ran &ldquo;rake generate&rdquo; and got the following error:</p>
+
+<pre><code>D:\Github\qtao&gt;rake generate
+## Generating Site with Jekyll
+identical source/stylesheets/screen.css
+Configuration from D:/Github/qtao/_config.yml
+Building site: source -&gt; public
+YAML Exception reading 2013-06-20-test01.markdown: invalid byte sequence in GBK
+D:/Github/qtao/plugins/backtick_code_block.rb:13:in `gsub': invalid byte sequenc
+e in GBK (ArgumentError)
+......
+        from D:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.12.0/lib/jekyll/post.r
+b:195:in `render'
+......
+D:\Github\qtao&gt;
+</code></pre>
+
+<p>Edit your &ldquo;convertible.rb&rdquo;, for example:</p>
+
+<pre><code>D:\Ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.12.0\lib\jekyll\convertible.rb
+</code></pre>
+
+<p>change the line from:</p>
+
+<pre><code>     self.content = File.read(File.join(base, name))
+</code></pre>
+
+<p>To:</p>
+
+<pre><code>     self.content = File.read(File.join(base, name), :encoding =&gt; "utf-8")
+</code></pre>
+
+<p>Ran &ldquo;rake generate&rdquo; again and the errors should be gone:</p>
+
+<pre><code>D:\Github\qtao&gt;rake generate
+## Generating Site with Jekyll
+identical source/stylesheets/screen.css
+Configuration from D:/Github/qtao/_config.yml
+Building site: source -&gt; public
+Successfully generated site: source -&gt; public
+
+D:\Github\qtao&gt;
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[R CMD INSTALL package had non-zero exit status]]></title>
