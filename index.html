@@ -9,8 +9,8 @@
   <meta name="author" content="Tao">
 
   
-  <meta name="description" content="Test a new post with UTF-8 text. D:\Github\qtao&gt;rake new_post["test01"] Edit &ldquo;source/_posts/2013-06-20-test01.markdown&rdquo; file,
-and save &hellip;">
+  <meta name="description" content="Test a new post with UTF-8 text. D:\Github\mysite&gt;rake new_post["test01"] Edit &ldquo;source/_posts/2013-06-20-test01.markdown&rdquo; file,
+and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -97,7 +97,7 @@ and save &hellip;">
 
   <div class="entry-content"><h3>Test a new post with UTF-8 text.</h3>
 
-<pre><code>D:\Github\qtao&gt;rake new_post["test01"]
+<pre><code>D:\Github\mysite&gt;rake new_post["test01"]
 </code></pre>
 
 <p>Edit &ldquo;source/_posts/2013-06-20-test01.markdown&rdquo; file,
@@ -105,19 +105,19 @@ and save as &ldquo;UTF-8 -NO BOM&rdquo; text file format.</p>
 
 <p>If you ran &ldquo;rake generate&rdquo; and got the following error:</p>
 
-<pre><code>D:\Github\qtao&gt;rake generate
+<pre><code>D:\Github\mysite&gt;rake generate
 ## Generating Site with Jekyll
 identical source/stylesheets/screen.css
-Configuration from D:/Github/qtao/_config.yml
+Configuration from D:/Github/mysite/_config.yml
 Building site: source -&gt; public
 YAML Exception reading 2013-06-20-test01.markdown: invalid byte sequence in GBK
-D:/Github/qtao/plugins/backtick_code_block.rb:13:in `gsub': invalid byte sequenc
+D:/Github/mysite/plugins/backtick_code_block.rb:13:in `gsub': invalid byte sequenc
 e in GBK (ArgumentError)
 ......
         from D:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.12.0/lib/jekyll/post.r
 b:195:in `render'
 ......
-D:\Github\qtao&gt;
+D:\Github\mysite&gt;
 </code></pre>
 
 <p>Edit your &ldquo;convertible.rb&rdquo;, for example:</p>
@@ -137,14 +137,14 @@ D:\Github\qtao&gt;
 
 <p>Rerun &ldquo;rake generate&rdquo; command and the errors should be gone:</p>
 
-<pre><code>D:\Github\qtao&gt;rake generate
+<pre><code>D:\Github\mysite&gt;rake generate
 ## Generating Site with Jekyll
 identical source/stylesheets/screen.css
-Configuration from D:/Github/qtao/_config.yml
+Configuration from D:/Github/mysite/_config.yml
 Building site: source -&gt; public
 Successfully generated site: source -&gt; public
 
-D:\Github\qtao&gt;
+D:\Github\mysite&gt;
 </code></pre>
 </div>
   
