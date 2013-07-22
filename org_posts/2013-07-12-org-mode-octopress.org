@@ -1,0 +1,11 @@
+#+BEGIN_HTML
+---
+layout: post
+title: "org-mode Octopress"
+date: 2013-07-12 02:11
+comments: true
+categories: 
+---
+#+END_HTML
+
+Hello world!
